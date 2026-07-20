@@ -87,7 +87,3 @@ curl -s -i -H 'Idempotency-Key: req-12345' 'http://localhost/rpc/calc.cgi?op=sum
 # Subsecuentes con la misma clave: devuelven la respuesta almacenada
 curl -s -i -H 'Idempotency-Key: req-12345' 'http://localhost/rpc/calc.cgi?op=sum&a=10&b=20'
 ```
-
----
-
-Con esta versión tu **README.md** queda más claro, formal y alineado con un **reporte académico de laboratorio**. ¿Quieres que también te prepare una **sección de resultados esperados** (ejemplo de salida en JSON y texto plano) para complementar la práctica?
